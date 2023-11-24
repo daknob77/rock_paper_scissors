@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">Rock Paper Scissors</div>
+
+    <div class="body-container">
+      <div class="game-icons">
+        <div>
+          <img
+            class="player-icon"
+            src="./assets/question-mark.svg"
+            alt="Question Mark"
+          />
+
+          <p>Player</p>
+          <span id="player-score">0</span>
+        </div>
+        <div>
+          <img
+            class="computer-icon"
+            src="./assets/question-mark.svg"
+            alt="Question Mark"
+          />
+
+          <p>Computer</p>
+          <span id="computer-score">0</span>
+        </div>
+      </div>
+      <div class="game-buttons">
+        <button class="g-btn" id="rock">
+          <!-- set dragable to false -->
+          <img class="g-img" src="./assets/rock.svg" alt="Rock Image" />
+        </button>
+        <button class="g-btn" id="paper">
+          <img class="g-img" src="./assets/paper.svg" alt="Paper Image" />
+        </button>
+        <button class="g-btn" id="scissors">
+          <img class="g-img" src="./assets/scissors.svg" alt="Scissors Image" />
+        </button>
+      </div>
+      <div class="game-info">
+        <p class="choice">Rock Paper or Scissors?</p>
+        <p class="rule">First to get 5 points wins</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
