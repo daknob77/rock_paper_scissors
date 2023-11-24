@@ -9,17 +9,68 @@
 }
 
 body {
-  background-color: #00000d;
-  height: 100vh;
+  background-color: #162780;
+}
+
+.header,
+.body-container,
+.game-icons,
+.game-info {
+  display: flex;
+  align-items: center;
 }
 
 .header {
   color: #ffd700;
   height: 10vh;
-  font-size: 5vh;
+  font-size: 6vh;
   font-family: atariFont;
+  margin-bottom: 2vh;
 
-  display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+.body-container,
+.game-info {
+  flex-direction: column;
+}
+
+.body-container {
+  color: #d3d3d3;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 2vh;
+}
+
+.game-icons {
+  text-align: center;
+  gap: 10vh;
+}
+
+.g-btn {
+  margin: 3vh 1.5vh;
+  background-color: #d3d3d3;
+}
+
+img,
+.g-btn {
+  width: 15vh;
+  height: 15vh;
+}
+
+.g-img {
+  width: 5vh;
+  height: 5vh;
+}
+
+.game-info {
+  gap: 1.5vh;
+}
+
+.choice {
+  font-size: 3vh;
+}
+
+p {
+  margin-bottom: 0.5em;
 }
