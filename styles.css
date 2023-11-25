@@ -17,6 +17,7 @@ img {
 
 body {
   background-color: #162780;
+  font-family: sans-serif;
 }
 
 .header,
@@ -44,9 +45,12 @@ body {
 
 .body-container {
   color: #d3d3d3;
-  font-family: sans-serif;
-  font-weight: 800;
   font-size: 2vh;
+}
+
+.body-container,
+button {
+  font-weight: 800;
 }
 
 .game-icons {
@@ -80,4 +84,12 @@ img,
 
 p {
   margin-bottom: 0.5em;
+}
+
+.init {
+  padding: 2vh;
+}
+
+button {
+  background-color: #d3d3d3;
 }
