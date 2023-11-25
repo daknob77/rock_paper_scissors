@@ -46,6 +46,7 @@ body {
 .body-container {
   color: #d3d3d3;
   font-size: 2vh;
+  height: 90vh;
 }
 
 .body-container,
@@ -92,4 +93,9 @@ p {
 
 button {
   background-color: #d3d3d3;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
 }
